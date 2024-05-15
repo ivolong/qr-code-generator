@@ -1,7 +1,7 @@
 .clean-input, .clean-input:focus {
     padding: 5px;
     font-size: 35px;
-    width: 768px;
+    width: 750px;
     text-align: center;
     border: 0px;
     outline: none;
@@ -12,6 +12,6 @@ body {
     font-weight: 400;
     font-style: normal;
     justify-content: center;
-    padding: 10%;
+    padding: 9%;
 }
   
