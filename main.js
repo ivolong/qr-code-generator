@@ -17,8 +17,7 @@ const qrCode = new QRCode(qrCodeOutput, {
     width: 750,
 });
 
-const generateQrCode = debounce(function (valueToEncode) {
+function generateQrCode(valueToEncode) {
     qrCode.clear();
-
-    if (valueToEncode?.length > 0) qrCode.makeCode(valueToEncode);
-}, 500);
+    qrCode.makeCode(valueToEncode);
+};
